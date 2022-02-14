@@ -1,0 +1,15 @@
+.nav-item-home {
+    color: #1A1A1A;
+    text-decoration: none;
+    /* margin-top: 13%; */
+    /* margin-left: 5%; */
+}
+
+.intro {
+    margin-top: 20%;
+    /* margin-left: 5%; */
+}
+
+.intro-text {
+    text-align: start;
+}
