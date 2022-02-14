@@ -1,9 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/layout';
-import { StaticImage } from 'gatsby-plugin-image';
 import { Grid } from '@mui/material';
-import { Link } from 'gatsby';
-import { navItemHome, introText, intro } from '../css/homePage.module.css';
+import { navItemHome, intro } from '../css/homePage.module.css';
 
 const IndexPage = () => {
   return (

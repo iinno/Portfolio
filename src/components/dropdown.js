@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
-import { dropDownButton, itemWrapper, dropDownList } from '../css/dropdown.module.css';
+import { dropDownButton, itemsWrapper, dropDownList } from '../css/dropdown.module.css';
 import resume from  '../images/VincentKim_resume.pdf';
 
 const DropDown = () => {
@@ -11,7 +11,7 @@ const DropDown = () => {
     };
 
     return (
-        <div className={itemWrapper}>
+        <div className={itemsWrapper}>
             <button className={dropDownButton} onClick={openMenu}>Menu</button>
             { showMenu && 
                 <ul className={dropDownList}>
